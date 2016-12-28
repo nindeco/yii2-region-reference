@@ -1,6 +1,6 @@
 {
     "name": "karakum/yii2-region-reference",
-    "description": "This extension provides a region reference module",
+    "description": "This extension provides a region reference module. Fixed",
     "type": "yii2-extension",
     "keywords": [
         "yii2",
