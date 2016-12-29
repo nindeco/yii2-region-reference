@@ -1,4 +1,4 @@
-Region reference Yii2 module Fixed
+Region reference Yii2 module. Forked
 ==================================
 This extension provide a region reference module(backend & frontend) with feature:
 backend:
