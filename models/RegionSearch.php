@@ -104,7 +104,7 @@ class RegionSearch extends Region
             ->andFilterWhere(['like', 'fullname', $this->fullname])
             ->andFilterWhere(['like', 'code', $this->code]);
         
-        $query->orderBy([new \yii\db\Expression('FIELD (id, 78, 79) DESC'), 'id' => SORT_DESC]);
+        $query->orderBy([new \yii\db\Expression('FIELD (id, 79, 78) DESC'), 'id' => SORT_ASC]);
 
         return $dataProvider;
     }
